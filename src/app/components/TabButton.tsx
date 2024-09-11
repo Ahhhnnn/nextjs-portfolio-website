@@ -14,7 +14,7 @@ const TabButton = ({
     : "text-[#ADB7BE]";
   return (
     <button onClick={selectTab}>
-      <p className={`mr-3 font-semibold hover:text-white  ${buttonClassName}}`}>
+      <p className={`mr-3 font-semibold hover:text-white  ${buttonClassName}`}>
         {content}
       </p>
     </button>
